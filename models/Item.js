@@ -33,7 +33,7 @@ const itemSchema = new mongoose.Schema({
         type: String,
         required: [true, "Please Input Description!"]
     },
-    Category: {
+    category: {
         type: ObjectId,
         ref: "Category"
     },
